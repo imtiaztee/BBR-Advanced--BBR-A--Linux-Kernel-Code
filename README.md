@@ -1,4 +1,4 @@
-This repository has been created for experimenting the BBR-A scheme proposed in "BBR Advanced (BBR-A) — reduced retransmissions with improved fairness" in Linux Kernel. ***The article is currently under review in ICT Express.***
+This repository has been created for experimenting the BBR-A scheme proposed in "BBR Advanced (BBR-A) — reduced retransmissions with improved fairness" in Linux Kernel. ***The article is available at: https://www.sciencedirect.com/science/article/pii/S2405959520301296?via%3Dihub***
 
 **#Requirements and Dependencies:** <br />
 Please access: include/net/inet_connection_socket.h and set: ICSK_CA_PRIV_SIZE to 12 * sizeof(u64). <br />
