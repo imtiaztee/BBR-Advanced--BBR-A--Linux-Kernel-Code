@@ -13,9 +13,8 @@ Change the default Congestion Algorithm to bbr
 *Above development was based on the Linux version of 4.14.64+.*
 
 ********************************************************
-
-Thanks.
-Imtiaz Mahmud.
+Thanks and regards. <br />
+Dr. Imtiaz Mahmud.
 
 ********************************************************
 For any inquiry, please contact at imtiaz.tee@gmail.com.
