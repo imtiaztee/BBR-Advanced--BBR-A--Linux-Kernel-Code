@@ -390,8 +390,11 @@ static u32 bbr_target_cwnd(struct sock *sk, u32 bw, int gain)
         bbr->identical_rtt_count = 0;
     }
 
-   bbr->saved_last_rtt = rs->rtt_us;
-
+   if (rs->rtt_us >= 0)
+   {
+	   bbr->saved_last_rtt = rs->rtt_us;
+   }
+	 
    if (bbr->identical_rtt_count >= 2 || rs->rtt_us > 2*bbr->min_rtt_us)
    {
 	return true;
